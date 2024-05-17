@@ -5,10 +5,10 @@
   "doc": "Goya process begins",
   "fields": [
     {
-      "name": "requirementIsis",
-      "doc": "Requirement isis",
+      "name": "isisRequirement",
+      "doc": "Isis requirement",
       "type": {
-        "name": "RequirementIsis",
+        "name": "IsisRequirement",
         "type": "record",
         "fields": [
           {
@@ -248,87 +248,87 @@
               "items": {
                 "name": "IsisEquipmentComponent",
                 "doc": "Isis equipment component",
-                "type": "record",
+                "type":"record",
                 "fields": [
                   {
-                    "name": "commercialCustomer",
+                    "name":"commercialCustomer",
                     "doc": "Commercial customer",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "operationEac",
+                    "name":"operationEac",
                     "doc": "Operation EAC",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "sapCode",
+                    "name":"sapCode",
                     "doc": "SAP code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentCode",
+                    "name":"equipmentCode",
                     "doc": "Equipment code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "quantity",
+                    "name":"quantity",
                     "doc": "Quantity",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "classification",
+                    "name":"classification",
                     "doc": "Classification",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "description",
+                    "name":"description",
                     "doc": "Description",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentType",
+                    "name":"equipmentType",
                     "doc": "EquipmentType",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "brand",
+                    "name":"brand",
                     "doc": "Brand",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "model",
+                    "name":"model",
                     "doc": "Model",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "serial",
+                    "name":"serial",
                     "doc": "Serial",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "port",
+                    "name":"port",
                     "doc": "Port",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "owner",
+                    "name":"owner",
                     "doc": "Owner",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "manufacturer",
+                    "name":"manufacturer",
                     "doc": "Manufacturer",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "commercialParent",
+                    "name":"commercialParent",
                     "doc": "Commercial parent",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "commercialType",
+                    "name":"commercialType",
                     "doc": "Commercial type",
-                    "type": "string"
+                    "type":"string"
                   }
                 ]
               }
@@ -341,82 +341,82 @@
               "items": {
                 "name": "IsisAddresses",
                 "doc": "Isis addresses",
-                "type": "record",
+                "type":"record",
                 "fields": [
                   {
-                    "name": "description",
+                    "name":"description",
                     "doc": "Description",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "inside",
+                    "name":"inside",
                     "doc": "Inside",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "sapCode",
+                    "name":"sapCode",
                     "doc": "SAP code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "completeAddress",
+                    "name":"completeAddress",
                     "doc": "Complete address",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "viaType",
+                    "name":"viaType",
                     "doc": "Via type",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "typeUrbanization",
+                    "name":"typeUrbanization",
                     "doc": "Type urbanization",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "descriptionUrbanization",
+                    "name":"descriptionUrbanization",
                     "doc": "Description urbanization",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "district",
+                    "name":"district",
                     "doc": "District",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "province",
+                    "name":"province",
                     "doc": "Province",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "department",
+                    "name":"department",
                     "doc": "Department",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "ubigeoCode",
+                    "name":"ubigeoCode",
                     "doc": "Ubigeo Code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "postalCode",
+                    "name":"postalCode",
                     "doc": "Postal code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "coordinateX",
+                    "name":"coordinateX",
                     "doc": "Coordinate X",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "coordinateY",
+                    "name":"coordinateY",
                     "doc": "Coordinate Y",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "reference",
+                    "name":"reference",
                     "doc": "Reference",
-                    "type": "string"
+                    "type":"string"
                   }
                 ]
               }
@@ -514,27 +514,27 @@
               "items": {
                 "name": "IsisContact",
                 "doc": "Isis contact",
-                "type": "record",
+                "type":"record",
                 "fields": [
                   {
-                    "name": "code",
+                    "name":"code",
                     "doc": "Code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "name",
+                    "name":"name",
                     "doc": "Name",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "email",
+                    "name":"email",
                     "doc": "Email",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "contactType",
+                    "name":"contactType",
                     "doc": "Contact type",
-                    "type": "string"
+                    "type":"string"
                   }
                 ]
               }
@@ -547,22 +547,22 @@
               "items": {
                 "name": "IsisCharacteristics",
                 "doc": "Isis characteristics",
-                "type": "record",
+                "type":"record",
                 "fields": [
                   {
-                    "name": "code",
+                    "name":"code",
                     "doc": "Code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "type",
+                    "name":"type",
                     "doc": "Type",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "value",
+                    "name":"value",
                     "doc": "Value",
-                    "type": "string"
+                    "type":"string"
                   }
                 ]
               }
@@ -575,72 +575,72 @@
               "items": {
                 "name": "IsisPqEquipNod",
                 "doc": "Isis equipment node",
-                "type": "record",
+                "type":"record",
                 "fields": [
                   {
-                    "name": "subRequestNode",
+                    "name":"subRequestNode",
                     "doc": "Sub request node",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "sectionCode",
+                    "name":"sectionCode",
                     "doc": "Section code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "networkCode",
+                    "name":"networkCode",
                     "doc": "Network code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentCode",
+                    "name":"equipmentCode",
                     "doc": "Equipment code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentBrand",
+                    "name":"equipmentBrand",
                     "doc": "Equipment brand",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentModel",
+                    "name":"equipmentModel",
                     "doc": "Equipment model",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentSerial",
+                    "name":"equipmentSerial",
                     "doc": "Equipment serial",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "chassisNumber",
+                    "name":"chassisNumber",
                     "doc": "Chassis number",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "shelf",
+                    "name":"shelf",
                     "doc": "Shelf",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "door",
+                    "name":"door",
                     "doc": "Door",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "slotNumber",
+                    "name":"slotNumber",
                     "doc": "Slot number",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "quantity",
+                    "name":"quantity",
                     "doc": "Quantity",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "equipmentType",
+                    "name":"equipmentType",
                     "doc": "Equipment type",
-                    "type": "string"
+                    "type":"string"
                   }
                 ]
               }
@@ -653,52 +653,52 @@
               "items": {
                 "name": "IsisFtpss",
                 "doc": "isis Ftpss table",
-                "type": "record",
+                "type":"record",
                 "fields": [
                   {
-                    "name": "subRequestNode",
+                    "name":"subRequestNode",
                     "doc": "Sub request node",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "groupingCode",
+                    "name":"groupingCode",
                     "doc": "Grouping code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "sectionCode",
+                    "name":"sectionCode",
                     "doc": "Section code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "networkCode",
+                    "name":"networkCode",
                     "doc": "Network code",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "networkSequence",
+                    "name":"networkSequence",
                     "doc": "Network sequence",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "networkElement",
+                    "name":"networkElement",
                     "doc": "Network element",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "ValueNetworkElement",
+                    "name":"ValueNetworkElement",
                     "doc": "Value network element",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "codeStatusFacility",
+                    "name":"codeStatusFacility",
                     "doc": "Code status facility",
-                    "type": "string"
+                    "type":"string"
                   },
                   {
-                    "name": "dateStatusTechnicalData",
+                    "name":"dateStatusTechnicalData",
                     "doc": "Date status technical data",
-                    "type": "string"
+                    "type":"string"
                   }
                 ]
               }
