@@ -1,0 +1,165 @@
+{
+  "name": "StartProcessGoya",
+  "type": "record",
+  "namespace": "com.tdp.ms.resourcestartprocessmanagement.model.avro",
+  "doc": "Goya process begins",
+  "fields": [
+    {
+      "name": "requirementIsis",
+      "type": {
+        "name": "RequirementIsis",
+        "type": "record",
+        "fields": [
+          {
+            "name": "requirement",
+            "type": "string"
+          },
+          {
+            "name": "sequenceRequest",
+            "type": "string"
+          },
+          {
+            "name": "sequenceShipment",
+            "type": "string"
+          },
+          {
+            "name": "system",
+            "type": "string"
+          },
+          {
+            "name": "origin",
+            "type": "string"
+          },
+          {
+            "name": "requestParent",
+            "type": "string"
+          },
+          {
+            "name": "prefixOrder",
+            "type": "string"
+          },
+          {
+            "name": "orderNumber",
+            "type": "string"
+          },
+          {
+            "name": "dateOrderRegistrationOrder",
+            "type": "string"
+          },
+          {
+            "name": "dateOrderAttentionOrder",
+            "type": "string"
+          },
+          {
+            "name": "priorityOrder",
+            "type": "string"
+          },
+          {
+            "name": "userAttention",
+            "type": "string"
+          },
+          {
+            "name": "comments",
+            "type": "string"
+          },
+          {
+            "name": "actGe1Ds",
+            "type": "string"
+          },
+          {
+            "name": "actGe2Ds",
+            "type": "string"
+          },
+          {
+            "name": "actGe4Ds",
+            "type": "string"
+          },
+          {
+            "name": "codProdServSoli",
+            "type": "string"
+          },
+          {
+            "name": "alProdServSoli",
+            "type": "string"
+          },
+          {
+            "name": "tipProdServSoli",
+            "type": "string"
+          },
+          {
+            "name": "operationPs",
+            "type": "string"
+          },
+          {
+            "name": "codSerPrnCd",
+            "type": "string"
+          },
+          {
+            "name": "tipProdTecn",
+            "type": "string"
+          },
+          {
+            "name": "codSisAdiCd",
+            "type": "string"
+          },
+          {
+            "name": "valIdeSisCd",
+            "type": "string"
+          },
+          {
+            "name": "codIdeSisCd",
+            "type": "string"
+          },
+          {
+            "name": "numPed",
+            "type": "string"
+          },
+          {
+            "name": "serEqp",
+            "type": "string"
+          },
+          {
+            "name": "indCan",
+            "type": "string"
+          },
+          {
+            "name": "acodPetAsoCd",
+            "type": "string"
+          },
+          {
+            "name": "aident",
+            "type": "string"
+          },
+          {
+            "name": "aideProCmrCd",
+            "type": "string"
+          },
+          {
+            "name": "codSsgCd",
+            "type": "string"
+          },
+          {
+            "name": "codOfeCd",
+            "type": "string"
+          },
+          {
+            "name": "actGe7Ds",
+            "type": "string"
+          },
+          {
+            "name": "actGe8Ds",
+            "type": "string"
+          },
+          {
+            "name": "actGe9Ds",
+            "type": "string"
+          },
+          {
+            "name": "actGe10Ds",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
