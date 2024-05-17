@@ -161,7 +161,6 @@
             "doc": "Circuit",
             "type": "string"
           },
-
           {
             "name": "aideProCmrCd",
             "doc": "Circuit type",
@@ -196,6 +195,514 @@
             "name": "generalActivity10",
             "doc": "General activity 10",
             "type": "string"
+          },
+          {
+            "name": "isisCustomer",
+            "doc": "Isis customer",
+            "type": {
+              "name": "IsisCustomer",
+              "type": "record",
+              "fields": [
+                {
+                  "name": "customerCode",
+                  "doc": "Customer code",
+                  "type": "string"
+                },
+                {
+                  "name": "name",
+                  "doc": "Name",
+                  "type": "string"
+                },
+                {
+                  "name": "documentType",
+                  "doc": "Document type",
+                  "type": "string"
+                },
+                {
+                  "name": "documentNumber",
+                  "doc": "Document number",
+                  "type": "string"
+                },
+                {
+                  "name": "email",
+                  "doc": "Email",
+                  "type": "string"
+                },
+                {
+                  "name": "companySegment",
+                  "doc": "Company segment",
+                  "type": "string"
+                },
+                {
+                  "name": "subSegment",
+                  "doc": "Sub segment",
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          {
+            "name": "isisEquipmentComponent",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "IsisEquipmentComponent",
+                "doc": "Isis equipment component",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "commercialCustomer",
+                    "doc": "Commercial customer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "operationEac",
+                    "doc": "Operation EAC",
+                    "type": "string"
+                  },
+                  {
+                    "name": "sapCode",
+                    "doc": "SAP code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentCode",
+                    "doc": "Equipment code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "quantity",
+                    "doc": "Quantity",
+                    "type": "string"
+                  },
+                  {
+                    "name": "classification",
+                    "doc": "Classification",
+                    "type": "string"
+                  },
+                  {
+                    "name": "description",
+                    "doc": "Description",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentType",
+                    "doc": "EquipmentType",
+                    "type": "string"
+                  },
+                  {
+                    "name": "brand",
+                    "doc": "Brand",
+                    "type": "string"
+                  },
+                  {
+                    "name": "model",
+                    "doc": "Model",
+                    "type": "string"
+                  },
+                  {
+                    "name": "serial",
+                    "doc": "Serial",
+                    "type": "string"
+                  },
+                  {
+                    "name": "port",
+                    "doc": "Port",
+                    "type": "string"
+                  },
+                  {
+                    "name": "owner",
+                    "doc": "Owner",
+                    "type": "string"
+                  },
+                  {
+                    "name": "manufacturer",
+                    "doc": "Manufacturer",
+                    "type": "string"
+                  },
+                  {
+                    "name": "commercialParent",
+                    "doc": "Commercial parent",
+                    "type": "string"
+                  },
+                  {
+                    "name": "commercialType",
+                    "doc": "Commercial type",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "isisAddresses",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "IsisAddresses",
+                "doc": "Isis addresses",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "description",
+                    "doc": "Description",
+                    "type": "string"
+                  },
+                  {
+                    "name": "inside",
+                    "doc": "Inside",
+                    "type": "string"
+                  },
+                  {
+                    "name": "sapCode",
+                    "doc": "SAP code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "completeAddress",
+                    "doc": "Complete address",
+                    "type": "string"
+                  },
+                  {
+                    "name": "viaType",
+                    "doc": "Via type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "typeUrbanization",
+                    "doc": "Type urbanization",
+                    "type": "string"
+                  },
+                  {
+                    "name": "descriptionUrbanization",
+                    "doc": "Description urbanization",
+                    "type": "string"
+                  },
+                  {
+                    "name": "district",
+                    "doc": "District",
+                    "type": "string"
+                  },
+                  {
+                    "name": "province",
+                    "doc": "Province",
+                    "type": "string"
+                  },
+                  {
+                    "name": "department",
+                    "doc": "Department",
+                    "type": "string"
+                  },
+                  {
+                    "name": "ubigeoCode",
+                    "doc": "Ubigeo Code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "postalCode",
+                    "doc": "Postal code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "coordinateX",
+                    "doc": "Coordinate X",
+                    "type": "string"
+                  },
+                  {
+                    "name": "coordinateY",
+                    "doc": "Coordinate Y",
+                    "type": "string"
+                  },
+                  {
+                    "name": "reference",
+                    "doc": "Reference",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "isisProduct",
+            "doc": "Isis product",
+            "type": {
+              "name": "IsisProduct",
+              "type": "record",
+              "fields": [
+                {
+                  "name": "codProServReq",
+                  "doc": "Code product service request",
+                  "type": "string"
+                },
+                {
+                  "name": "valProdServReq",
+                  "doc": "Value product service request",
+                  "type": "string"
+                },
+                {
+                  "name": "typProdServReq",
+                  "doc": "Type product service request",
+                  "type": "string"
+                },
+                {
+                  "name": "operationPs",
+                  "doc": "Operation ps",
+                  "type": "string"
+                },
+                {
+                  "name": "mainService",
+                  "doc": "Main service",
+                  "type": "string"
+                },
+                {
+                  "name": "typProdTec",
+                  "doc": "Type product technical",
+                  "type": "string"
+                },
+                {
+                  "name": "requirementParent",
+                  "doc": "Requirement parent",
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          {
+            "name": "isisPss",
+            "doc": "Isis pss",
+            "type": {
+              "name": "IsisPss",
+              "type": "record",
+              "fields": [
+                {
+                  "name": "typId",
+                  "doc": "Type id",
+                  "type": "string"
+                },
+                {
+                  "name": "mainService",
+                  "doc": "Main service",
+                  "type": "string"
+                },
+                {
+                  "name": "scope",
+                  "doc": "Scope",
+                  "type": "string"
+                },
+                {
+                  "name": "contingency",
+                  "doc": "Contingency",
+                  "type": "string"
+                },
+                {
+                  "name": "typIdParent",
+                  "doc": "type main service parent",
+                  "type": "string"
+                },
+                {
+                  "name": "mainServiceParent",
+                  "doc": "Main service parent",
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          {
+            "name": "isisContact",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "IsisContact",
+                "doc": "Isis contact",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "code",
+                    "doc": "Code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "name",
+                    "doc": "Name",
+                    "type": "string"
+                  },
+                  {
+                    "name": "email",
+                    "doc": "Email",
+                    "type": "string"
+                  },
+                  {
+                    "name": "contactType",
+                    "doc": "Contact type",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "isisCharacteristics",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "IsisCharacteristics",
+                "doc": "Isis characteristics",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "code",
+                    "doc": "Code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "type",
+                    "doc": "Type",
+                    "type": "string"
+                  },
+                  {
+                    "name": "value",
+                    "doc": "Value",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "isisPqEquipNod",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "IsisPqEquipNod",
+                "doc": "Isis equipment node",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "subRequestNode",
+                    "doc": "Sub request node",
+                    "type": "string"
+                  },
+                  {
+                    "name": "sectionCode",
+                    "doc": "Section code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "networkCode",
+                    "doc": "Network code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentCode",
+                    "doc": "Equipment code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentBrand",
+                    "doc": "Equipment brand",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentModel",
+                    "doc": "Equipment model",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentSerial",
+                    "doc": "Equipment serial",
+                    "type": "string"
+                  },
+                  {
+                    "name": "chassisNumber",
+                    "doc": "Chassis number",
+                    "type": "string"
+                  },
+                  {
+                    "name": "shelf",
+                    "doc": "Shelf",
+                    "type": "string"
+                  },
+                  {
+                    "name": "door",
+                    "doc": "Door",
+                    "type": "string"
+                  },
+                  {
+                    "name": "slotNumber",
+                    "doc": "Slot number",
+                    "type": "string"
+                  },
+                  {
+                    "name": "quantity",
+                    "doc": "Quantity",
+                    "type": "string"
+                  },
+                  {
+                    "name": "equipmentType",
+                    "doc": "Equipment type",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "name": "isisFtpss",
+            "type": {
+              "type": "array",
+              "items": {
+                "name": "IsisFtpss",
+                "doc": "isis Ftpss table",
+                "type": "record",
+                "fields": [
+                  {
+                    "name": "subRequestNode",
+                    "doc": "Sub request node",
+                    "type": "string"
+                  },
+                  {
+                    "name": "groupingCode",
+                    "doc": "Grouping code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "sectionCode",
+                    "doc": "Section code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "networkCode",
+                    "doc": "Network code",
+                    "type": "string"
+                  },
+                  {
+                    "name": "networkSequence",
+                    "doc": "Network sequence",
+                    "type": "string"
+                  },
+                  {
+                    "name": "networkElement",
+                    "doc": "Network element",
+                    "type": "string"
+                  },
+                  {
+                    "name": "ValueNetworkElement",
+                    "doc": "Value network element",
+                    "type": "string"
+                  },
+                  {
+                    "name": "codeStatusFacility",
+                    "doc": "Code status facility",
+                    "type": "string"
+                  },
+                  {
+                    "name": "dateStatusTechnicalData",
+                    "doc": "Date status technical data",
+                    "type": "string"
+                  }
+                ]
+              }
+            }
           }
         ]
       }
