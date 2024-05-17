@@ -6,156 +6,195 @@
   "fields": [
     {
       "name": "requirementIsis",
+      "doc": "Requirement isis",
       "type": {
         "name": "RequirementIsis",
         "type": "record",
         "fields": [
           {
             "name": "requirement",
+            "doc": "Requirement",
             "type": "string"
           },
           {
             "name": "sequenceRequest",
+            "doc": "Sequence request",
             "type": "string"
           },
           {
             "name": "sequenceShipment",
+            "doc": "Sequence shipment",
             "type": "string"
           },
           {
             "name": "system",
+            "doc": "System",
             "type": "string"
           },
           {
             "name": "origin",
+            "doc": "Origin",
             "type": "string"
           },
           {
             "name": "requestParent",
+            "doc": "Request parent",
             "type": "string"
           },
           {
             "name": "prefixOrder",
+            "doc": "Prefix order",
             "type": "string"
           },
           {
             "name": "orderNumber",
+            "doc": "Order number",
             "type": "string"
           },
           {
             "name": "dateOrderRegistrationOrder",
+            "doc": "Date order registration order",
             "type": "string"
           },
           {
             "name": "dateOrderAttentionOrder",
+            "doc": "Date order attention order",
             "type": "string"
           },
           {
             "name": "priorityOrder",
+            "doc": "Priority order",
             "type": "string"
           },
           {
             "name": "userAttention",
+            "doc": "User attention",
             "type": "string"
           },
           {
             "name": "comments",
+            "doc": "Comments",
             "type": "string"
           },
           {
-            "name": "actGe1Ds",
+            "name": "generalActivity1",
+            "doc": "General activity 1",
             "type": "string"
           },
           {
-            "name": "actGe2Ds",
+            "name": "generalActivity2",
+            "doc": "General activity 2",
             "type": "string"
           },
           {
-            "name": "actGe4Ds",
+            "name": "generalActivity4",
+            "doc": "General activity 4",
             "type": "string"
           },
           {
-            "name": "codProdServSoli",
+            "name": "codProdServReq",
+            "doc": "Cod. product service request",
             "type": "string"
           },
           {
-            "name": "alProdServSoli",
+            "name": "alProdServReq",
+            "doc": "Al. product service request",
             "type": "string"
           },
           {
-            "name": "tipProdServSoli",
+            "name": "typProdServReq",
+            "doc": "Type product service request",
             "type": "string"
           },
           {
             "name": "operationPs",
+            "doc": "Operation Ps",
             "type": "string"
           },
           {
             "name": "codSerPrnCd",
+            "doc": "Main service",
             "type": "string"
           },
           {
-            "name": "tipProdTecn",
+            "name": "typProdTecn",
+            "doc": "Type product tecnical",
             "type": "string"
           },
           {
             "name": "codSisAdiCd",
+            "doc": "Aditional system",
             "type": "string"
           },
           {
             "name": "valIdeSisCd",
+            "doc": "Code id system",
             "type": "string"
           },
           {
             "name": "codIdeSisCd",
+            "doc": "Description id system",
             "type": "string"
           },
           {
             "name": "numPed",
+            "doc": "Order number",
             "type": "string"
           },
           {
             "name": "serEqp",
+            "doc": "Equipment serial",
             "type": "string"
           },
           {
             "name": "indCan",
+            "doc": "Can indicator",
             "type": "string"
           },
           {
             "name": "acodPetAsoCd",
+            "doc": "Associated service",
             "type": "string"
           },
           {
             "name": "aident",
+            "doc": "Circuit",
             "type": "string"
           },
+
           {
             "name": "aideProCmrCd",
+            "doc": "Circuit type",
             "type": "string"
           },
           {
             "name": "codSsgCd",
+            "doc": "Sisego code",
             "type": "string"
           },
           {
             "name": "codOfeCd",
+            "doc": "Ofert code",
             "type": "string"
           },
           {
-            "name": "actGe7Ds",
+            "name": "generalActivity7",
+            "doc": "General activity 7",
             "type": "string"
           },
           {
-            "name": "actGe8Ds",
+            "name": "generalActivity8",
+            "doc": "General activity 8",
             "type": "string"
           },
           {
-            "name": "actGe9Ds",
+            "name": "generalActivity9",
+            "doc": "General activity 9",
             "type": "string"
           },
           {
-            "name": "actGe10Ds",
+            "name": "generalActivity10",
+            "doc": "General activity 10",
             "type": "string"
           }
         ]
