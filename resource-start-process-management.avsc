@@ -686,7 +686,7 @@
                     "type":"string"
                   },
                   {
-                    "name":"ValueNetworkElement",
+                    "name":"valueNetworkElement",
                     "doc": "Value network element",
                     "type":"string"
                   },
