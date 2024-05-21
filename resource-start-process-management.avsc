@@ -1,7 +1,7 @@
 {
   "name": "StartProcessGoya",
   "type": "record",
-  "namespace": "com.tdp.ms.resourcestartprocessmanagement.model.avro",
+  "namespace": "com.tdp.ms.servicecapabilityorchestration.model.avro",
   "doc": "Goya process begins",
   "fields": [
     {
@@ -14,187 +14,224 @@
           {
             "name": "requirement",
             "doc": "Requirement",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "sequenceRequest",
             "doc": "Sequence request",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "sequenceShipment",
             "doc": "Sequence shipment",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "system",
             "doc": "System",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "origin",
             "doc": "Origin",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "requestParent",
             "doc": "Request parent",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "prefixOrder",
             "doc": "Prefix order",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "orderNumber",
             "doc": "Order number",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "dateOrderRegistrationOrder",
             "doc": "Date order registration order",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "dateOrderAttentionOrder",
             "doc": "Date order attention order",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "priorityOrder",
             "doc": "Priority order",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "userAttention",
             "doc": "User attention",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "comments",
             "doc": "Comments",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity1",
             "doc": "General activity 1",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity2",
             "doc": "General activity 2",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity4",
             "doc": "General activity 4",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "codProdServReq",
             "doc": "Cod. product service request",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "alProdServReq",
             "doc": "Al. product service request",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "typProdServReq",
             "doc": "Type product service request",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "operationPs",
             "doc": "Operation Ps",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "codSerPrnCd",
             "doc": "Main service",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "typProdTecn",
             "doc": "Type product tecnical",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "codSisAdiCd",
             "doc": "Aditional system",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "valIdeSisCd",
             "doc": "Code id system",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "codIdeSisCd",
             "doc": "Description id system",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "numPed",
             "doc": "Order number",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "serEqp",
             "doc": "Equipment serial",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "indCan",
             "doc": "Can indicator",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "acodPetAsoCd",
             "doc": "Associated service",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "aident",
             "doc": "Circuit",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "aideProCmrCd",
             "doc": "Circuit type",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "codSsgCd",
             "doc": "Sisego code",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "codOfeCd",
             "doc": "Ofert code",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity7",
             "doc": "General activity 7",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity8",
             "doc": "General activity 8",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity9",
             "doc": "General activity 9",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "generalActivity10",
             "doc": "General activity 10",
-            "type": "string"
+            "type": "string",
+            "default": ""
           },
           {
             "name": "isisCustomer",
@@ -206,37 +243,44 @@
                 {
                   "name": "customerCode",
                   "doc": "Customer code",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "name",
                   "doc": "Name",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "documentType",
                   "doc": "Document type",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "documentNumber",
                   "doc": "Document number",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "email",
                   "doc": "Email",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "companySegment",
                   "doc": "Company segment",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "subSegment",
                   "doc": "Sub segment",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 }
               ]
             }
@@ -253,82 +297,98 @@
                   {
                     "name":"commercialCustomer",
                     "doc": "Commercial customer",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"operationEac",
                     "doc": "Operation EAC",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"sapCode",
                     "doc": "SAP code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentCode",
                     "doc": "Equipment code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"quantity",
                     "doc": "Quantity",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"classification",
                     "doc": "Classification",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"description",
                     "doc": "Description",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentType",
                     "doc": "EquipmentType",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"brand",
                     "doc": "Brand",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"model",
                     "doc": "Model",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"serial",
                     "doc": "Serial",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"port",
                     "doc": "Port",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"owner",
                     "doc": "Owner",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"manufacturer",
                     "doc": "Manufacturer",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"commercialParent",
                     "doc": "Commercial parent",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"commercialType",
                     "doc": "Commercial type",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   }
                 ]
               }
@@ -346,77 +406,92 @@
                   {
                     "name":"description",
                     "doc": "Description",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"inside",
                     "doc": "Inside",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"sapCode",
                     "doc": "SAP code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"completeAddress",
                     "doc": "Complete address",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"viaType",
                     "doc": "Via type",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"typeUrbanization",
                     "doc": "Type urbanization",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"descriptionUrbanization",
                     "doc": "Description urbanization",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"district",
                     "doc": "District",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"province",
                     "doc": "Province",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"department",
                     "doc": "Department",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"ubigeoCode",
                     "doc": "Ubigeo Code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"postalCode",
                     "doc": "Postal code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"coordinateX",
                     "doc": "Coordinate X",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"coordinateY",
                     "doc": "Coordinate Y",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"reference",
                     "doc": "Reference",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   }
                 ]
               }
@@ -432,37 +507,44 @@
                 {
                   "name": "codProServReq",
                   "doc": "Code product service request",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "valProdServReq",
                   "doc": "Value product service request",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "typProdServReq",
                   "doc": "Type product service request",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "operationPs",
                   "doc": "Operation ps",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "mainService",
                   "doc": "Main service",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "typProdTec",
                   "doc": "Type product technical",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "requirementParent",
                   "doc": "Requirement parent",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 }
               ]
             }
@@ -477,32 +559,38 @@
                 {
                   "name": "typId",
                   "doc": "Type id",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "mainService",
                   "doc": "Main service",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "scope",
                   "doc": "Scope",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "contingency",
                   "doc": "Contingency",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "typIdParent",
                   "doc": "type main service parent",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 },
                 {
                   "name": "mainServiceParent",
                   "doc": "Main service parent",
-                  "type": "string"
+                  "type": "string",
+                  "default": ""
                 }
               ]
             }
@@ -519,22 +607,26 @@
                   {
                     "name":"code",
                     "doc": "Code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"name",
                     "doc": "Name",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"email",
                     "doc": "Email",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"contactType",
                     "doc": "Contact type",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   }
                 ]
               }
@@ -552,17 +644,20 @@
                   {
                     "name":"code",
                     "doc": "Code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"type",
                     "doc": "Type",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"value",
                     "doc": "Value",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   }
                 ]
               }
@@ -580,67 +675,80 @@
                   {
                     "name":"subRequestNode",
                     "doc": "Sub request node",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"sectionCode",
                     "doc": "Section code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"networkCode",
                     "doc": "Network code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentCode",
                     "doc": "Equipment code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentBrand",
                     "doc": "Equipment brand",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentModel",
                     "doc": "Equipment model",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentSerial",
                     "doc": "Equipment serial",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"chassisNumber",
                     "doc": "Chassis number",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"shelf",
                     "doc": "Shelf",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"door",
                     "doc": "Door",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"slotNumber",
                     "doc": "Slot number",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"quantity",
                     "doc": "Quantity",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"equipmentType",
                     "doc": "Equipment type",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   }
                 ]
               }
@@ -658,47 +766,56 @@
                   {
                     "name":"subRequestNode",
                     "doc": "Sub request node",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"groupingCode",
                     "doc": "Grouping code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"sectionCode",
                     "doc": "Section code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"networkCode",
                     "doc": "Network code",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"networkSequence",
                     "doc": "Network sequence",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"networkElement",
                     "doc": "Network element",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"valueNetworkElement",
                     "doc": "Value network element",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"codeStatusFacility",
                     "doc": "Code status facility",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   },
                   {
                     "name":"dateStatusTechnicalData",
                     "doc": "Date status technical data",
-                    "type":"string"
+                    "type":"string",
+                    "default": ""
                   }
                 ]
               }
